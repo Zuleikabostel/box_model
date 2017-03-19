@@ -44,10 +44,15 @@ div {
 }
 
 .nav li {
+  border-right: 1px solid #D4B364;
   display: block;
   float: left;
   color: white;
   padding: 0 15px;
+}
+
+.nav li:last-child {
+border-right: none;
 }
 
 .AboutContainer {
@@ -80,4 +85,33 @@ div {
   float: left;
   font-weight: normal;
   font-size: 20px;
+}
+
+.BodyContainer {
+  max-width: 920px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: #dbd8c5;
+  overflow: hidden;
+}
+
+.BodyLeft {
+  max-width: 195px;
+  height: 1000px;
+  background-color: #96afac;
+}
+
+.BodyLeft ol {
+  width: 138px;
+  padding: 35px;
+}
+
+.BodyLeft li {
+  border-bottom: 1px solid #b6c6c6;
+  display: block;
+  float: left;
+  color: white;
+  padding: 15px;
 }
